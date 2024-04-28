@@ -22,7 +22,7 @@ jobs:
           name: Deploy to Heroku
           command: |
             # Set up Heroku git remotes
-            git remote add heroku https://heroku:${HEROKU_API_KEY}@git.heroku.com/tddah-fe.git
+            git remote add heroku https://heroku:${HEROKU_API_KEY}@git.heroku.com/rushyyz-site.git
 
             # Push changes to Heroku
             git push heroku main
